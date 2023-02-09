@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.ancho100 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.boton {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+input[type="text"]{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 584px;
+}
+input[type="text"]:hover,input[type="text"]:focus{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+ input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.busca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.ancho100.busca>div{
+    margin:5px;
+}
+
+.menu {
+    float: right;
+    margin: 20px;
+}
+
+.menu button {
+    background: #93baf9;
+    color: #202124;
+}
+.boton.search{
+    background: #93baf9;
+    color: #202124;
+}
+
+
+.formulario {
+    display: flex;
+    justify-content: center;
+
+}
